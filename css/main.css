@@ -55,7 +55,7 @@ nav .navbar-brand span {
 
 .hero-img {
   position: relative;
-  background-image: url(../img/george-cox-l9Z93oauxgs-unsplashS.jpg);
+  background-image: url(../img/beerbeachS.jpg);
   height: 100vh;
   background-position: center;
   background-size: cover;
@@ -185,7 +185,7 @@ nav .navbar-brand span {
 .hero-wedo {
   position: relative;
   width: 100%;
-  background-image: url(/img/beer-839865_1920.jpg);
+  background-image: url(/img/twobeers.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -359,7 +359,7 @@ nav .navbar-brand span {
 
 @media (min-width: 768px) {
   .hero-img {
-    background-image: url(/img/george-cox-l9Z93oauxgs-unsplash.jpg);
+    background-image: url(/img/beerbeach.jpg);
   }
   .hero-img .hero-text h1 {
     font-size: 42px;
