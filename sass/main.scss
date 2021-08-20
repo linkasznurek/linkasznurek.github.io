@@ -1,0 +1,343 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	position: relative;
+	// font-family: 'Montserrat', sans-serif;
+	// font-family: 'Kalam', cursive;
+	font-family: 'Poppins', sans-serif;
+
+}
+html {
+	scroll-padding-top: 75px;
+}
+nav {
+	background: rgb(0, 0, 0);
+	background: linear-gradient(
+		77deg,
+		rgba(0, 0, 0, 1) 0%,
+		rgba(24, 24, 25, 0) 100%
+	);
+	width: 100%;
+	z-index: 10;
+	a {
+		color: #fff;
+	}
+	a:hover {
+		color: #ffcc33;
+	}
+
+	.nav-link {
+		color: #fff;
+		text-transform: uppercase;
+	}
+	.nav-link:hover {
+		color: #ffcc33;
+	}
+
+
+	.fa-bars {
+		color: rgb(85, 85, 85);
+	}
+	.navbar-toggler:focus {
+		box-shadow: none;
+	}
+	.navbar-brand {
+		span {
+			color: #ffcc33;
+		}
+	}
+}
+
+.hero-img {
+	position: relative;
+	background-image: url(../img/george-cox-l9Z93oauxgs-unsplashS.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	z-index: 0;
+	.hero-text {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		height: 100%;
+		padding: 10px;
+		text-align: center;
+		color: #fff;
+		z-index: 5;
+
+		h1 {
+			font-size: 35px;
+			text-shadow: 5px 5px 5px rgb(17, 16, 16);
+			letter-spacing: 3px;
+			span {
+				color: #ffcc00;
+			}
+		}
+	}
+}
+
+.btn {
+	letter-spacing: 3px;
+	font-style: italic;
+}
+.btn:hover {
+	background: none;
+	color: #ffcc00;
+	border: 1px solid #ffcc00;
+}
+
+
+// #aboutus:target{
+//     margin-top: -100px;
+// }
+.aboutus {
+	overflow-x: hidden;
+
+	p {
+		font-size: 16px;
+		text-align: center;
+	}
+}
+.heading{
+	min-height: 90px;
+	margin-top: 20px;
+	.headline{
+		position: absolute;
+		padding: 10px;
+		min-width: 10%;;
+		left: 50%;
+		transform: translate(-50%);
+		background-color: #fff;
+	
+	h2 {
+		text-transform: uppercase;
+		padding: 18px;
+		margin-bottom: 0;
+		font-size: 25px;
+		letter-spacing: 4px;
+		// font-style: italic;
+		// font-weight: 700;
+		color:black;
+		// color: #ffcc00;
+		text-align: center;
+		// text-shadow:3px 3px 5px rgb(117, 117, 113);
+	}}
+	hr{
+	position: absolute;
+	margin-top:45px;
+	width: 100%;
+	border:1px solid black; 
+	color: black;
+	opacity: 0.8;
+	
+	}
+	
+}
+
+.messenger {
+	display: inline-block;
+
+	margin-top: 10px;
+	background-color: #fbb034;
+	background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 90%);
+	color: white;
+	border-radius: 10px;
+	p {
+		margin: 10px;
+        text-align: left;
+		// text-shadow:5px 5px 5px rgb(117, 117, 113);
+	}
+}
+.with-emot {
+	position: relative;
+	padding-right: 20px;
+	margin-bottom: 30px;
+}
+.emotion {
+	position: absolute;
+	background-color: white;
+	border-radius: 5px;
+	right: 0;
+	bottom: -40px;
+	padding: 0;
+
+	span {
+		color: black;
+		font-size: 14px;
+	}
+}
+
+
+.hero-wedo {
+	position: relative;
+	width: 100%;
+	background-image: url(/img/beer-839865_1920.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+    z-index: 3;
+	.hero-shadow {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.5);
+        z-index: 0;
+	}
+    .hero-text-wedo{
+		text-transform: uppercase;
+		text-shadow: 5px 5px 5px rgb(17, 16, 16);
+		letter-spacing: 3px;
+        display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	    height: 100%;
+		text-align: center;
+		color: #fff;
+		.specialisation,h3,p{
+			z-index: 5;
+			font-weight: 300;
+		}
+		h3{
+			font-size: 20px;
+			// font-weight: bold;
+			text-shadow:5px 5px 3px black;
+		}
+		i{
+			font-size: 30px;
+			padding: 5px;
+		}
+	
+    }
+   
+}
+.card-team{
+	border: none;
+	text-align: center;
+	animation: flip-horizontal-bottom 2s 1s;
+	img{
+		padding: 20px;
+	}
+	.name-title{
+		font-size: 25px;
+		text-transform: uppercase;
+
+	}
+}
+
+.review{
+	padding-bottom: 40px;
+}
+.card-one{
+	width: auto;
+	img{
+		transform: scale(1);
+	}
+	.card-hero-shadow{
+		position: absolute;
+			width: 100%;
+			height: 100%;
+			background-color: rgba(0, 0, 0, 0.2);
+			z-index: 5;
+			transition: 1s;
+			
+	}
+	.card-title{
+		text-transform: uppercase;
+		font-weight: 300;
+		z-index: 8;
+		font-size: 30px;	
+		text-shadow:5px 5px 5px black;
+		transition: 1s;
+	}
+	.card-text{
+		position: absolute;
+		font-weight: 300;
+		font-style: italic;
+		justify-content: end;
+		opacity: 0;
+		z-index: 10;
+		transition: 1s;
+	
+	}
+}
+
+
+
+.card-one:hover>.card-hero-shadow{
+	background-color: rgba(0, 0, 0, 0.6);}
+
+
+.card-one:hover .card-text{
+opacity:1;
+z-index: 15;
+}
+.card-one:hover .card-title{
+	font-weight: 300;
+	transform: translateY(-220%);
+	}
+.card-one:hover .short{
+		transform: translateY(-130%);
+		}
+.card-one:hover .long{
+			transform: translateY(-370%);
+			}
+.slick-prev, .slick-next{
+	position: absolute;
+	font-size: 50px;
+	color: white;
+	z-index: 20;
+}		
+.slick-prev{
+	top:50%;
+	transform: translateY(-50%);
+}
+.slick-next{
+	top:50%;
+	right: 0;
+	transform: translateY(-50%);
+}
+
+.continued{
+	background-image: url(/img/beach-1869523_1920.jpg);
+	h3{
+		line-height:50px;
+	}
+}
+.thanks{
+	p{
+		text-align: center;
+		text-transform: uppercase;
+	}
+}
+			
+@media (min-width: 768px) {
+	.hero-img {
+		background-image: url(/img/george-cox-l9Z93oauxgs-unsplash.jpg);
+		
+		.hero-text {
+			h1 {
+				font-size: 42px;
+			}
+
+			p {
+				font-size: 20px;
+			}
+		}
+	}
+}
+@media (min-width: 992px){
+	.card-one{
+		.card-title{
+			font-size: 25px;
+		}
+	}
+}
