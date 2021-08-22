@@ -5,7 +5,7 @@ $('.slick-c').slick({
     prevArrow: '<div class="slick-prev"><span class="iconify" data-icon="entypo:chevron-thin-left"></span></i></div>',
     nextArrow: '<div class="slick-next"><span class="iconify" data-icon="bi:chevron-left" data-rotate="180deg"></span></i></div>',
     autoplay:true,
-    speed: 3000,
+    speed: 1500,
     mobileFirst:true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -15,6 +15,7 @@ $('.slick-c').slick({
         settings: {
           slidesToShow: 4,
           slidesToScroll: 2,
+          speed: 3000,
          
           
         }
@@ -24,7 +25,8 @@ $('.slick-c').slick({
         breakpoint: 992,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 1
+          slidesToScroll: 1,
+          speed: 3000,
         }
       },
       {
@@ -32,6 +34,7 @@ $('.slick-c').slick({
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
+          speed: 3000,
         }
       }
       // You can unslick at a given breakpoint now by adding:
