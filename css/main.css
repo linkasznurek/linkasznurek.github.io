@@ -318,8 +318,8 @@ nav .navbar-brand span {
 }
 
 .card-one:hover .long {
-  -webkit-transform: translateY(-370%);
-          transform: translateY(-370%);
+  -webkit-transform: translateY(-250%);
+          transform: translateY(-250%);
 }
 
 .slick-prev, .slick-next {
@@ -365,11 +365,26 @@ nav .navbar-brand span {
   .hero-img .hero-text p {
     font-size: 20px;
   }
+  .card-one:hover .long {
+    -webkit-transform: translateY(-280%);
+            transform: translateY(-280%);
+  }
 }
 
 @media (min-width: 992px) {
   .card-one .card-title {
     font-size: 25px;
+  }
+  .card-one:hover .long {
+    -webkit-transform: translateY(-500%);
+            transform: translateY(-500%);
+  }
+}
+
+@media (min-width: 1400px) {
+  .card-one:hover .long {
+    -webkit-transform: translateY(-370%);
+            transform: translateY(-370%);
   }
 }
 /*# sourceMappingURL=main.css.map */

@@ -288,7 +288,7 @@ z-index: 15;
 		transform: translateY(-130%);
 		}
 .card-one:hover .long{
-			transform: translateY(-370%);
+			transform: translateY(-250%);
 			}
 .slick-prev, .slick-next{
 	position: absolute;
@@ -333,6 +333,10 @@ z-index: 15;
 			}
 		}
 	}
+	.card-one:hover .long{
+		transform: translateY(-280%);
+		}
+	
 }
 @media (min-width: 992px){
 	.card-one{
@@ -340,4 +344,12 @@ z-index: 15;
 			font-size: 25px;
 		}
 	}
+	.card-one:hover .long{
+		transform: translateY(-500%);
+		}
+}
+@media (min-width: 1400px){
+	.card-one:hover .long{
+		transform: translateY(-370%);
+		}
 }
