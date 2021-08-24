@@ -26,7 +26,7 @@ $('.slick-c').slick({
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
-          speed: 3000,
+          speed: 1500,
         }
       },
       {
@@ -34,7 +34,7 @@ $('.slick-c').slick({
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
-          speed: 3000,
+          speed: 1500,
         }
       }
       // You can unslick at a given breakpoint now by adding:
